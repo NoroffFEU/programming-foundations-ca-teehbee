@@ -81,16 +81,15 @@ else {
 //Button
 
 const audio1 = new Audio("audio/beets.mp3");
+const audio2 = new Audio("audio/michael.mp3");
 const buttons1 = document.querySelectorAll("#button1");
+const buttons2 = document.querySelectorAll("#button2");
 
 buttons1.forEach(button => {
   button.addEventListener("click", () => {
     audio1.play();
   });
 });
-
-const audio2 = new Audio("audio/michael.mp3");
-const buttons2 = document.querySelectorAll("#button2");
 
 buttons2.forEach(button => {
   button.addEventListener("click", () => {
