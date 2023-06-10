@@ -1,9 +1,17 @@
 body {
-	font-family: sans-serif;
+	font-family: inter;
+	background-color: #D9BF9A;
+}
+
+.container {
 	padding: 1em 3em;
 	max-width: 500px;
 	margin: 0 auto;
+	width: 90vw;
+	background-color: white;
+	border-radius: 5%;
 }
+
 
 span {
 	margin: 10px 0px;
@@ -11,11 +19,13 @@ span {
 
 img {
 	max-width: 500px;
+	width: 90vw;
 	height: auto;
 }
 
 .image,
-h1 {
+h1,
+h2 {
 	text-align: center;
 }
 
@@ -23,14 +33,9 @@ h1 {
 	margin: 0 auto;
 }
 
-.row,
-.row-bold {
+.row {
 	display: flex;
 	justify-content: space-between;
-}
-
-.farm {
-	font-weight: bold;
 }
 
 .buttons {
@@ -38,9 +43,16 @@ h1 {
 	justify-content: space-around;
 }
 
-button {
+.farm {
+	border: 3px solid #D9BF9A;
 	padding: 5px;
+}
+
+button {
+	padding: 7px;
 	font-size: 1em;
-	font-weight: bold;
 	margin: 10px 0px;
+	background-color: #D9BF9A;
+	border: solid 1px;
+	border-radius: 5px;
 }
